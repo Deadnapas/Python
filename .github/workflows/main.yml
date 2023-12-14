@@ -1,0 +1,10 @@
+import sys
+
+sys.path.append("..")
+
+from pyneng_common_functions import chech_pytest
+
+check_pytest(__loader__,__file__)
+
+
+def test_tast_stdout(capsys):
